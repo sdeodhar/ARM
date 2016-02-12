@@ -1,8 +1,7 @@
 /*
 
-DEVELOPED BY:- Shreya Deodhar
-WHAT PROGRAM DO:- Program Of Multiplex 8 Seven Segment Using
-Max7221 And Controlled With ARM(LPC21XX) Using SPI Protocol
+Author:- Shreya Deodhar
+Program Of Multiplexed 8 Seven Segment Using Max7221 And Controlled With ARM(LPC21XX) Using SPI Protocol
 
 */
  
@@ -57,7 +56,8 @@ void main()
 void delay_fv(unsigned int x,int y)
 {
 	unsigned int i,j;
-	for(i=0;i<x;i++){
+	for(i=0;i<x;i++)
+	{
 		for(j=0;j<y;j++){};
 	}
 }
